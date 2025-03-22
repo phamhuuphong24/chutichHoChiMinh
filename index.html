@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ Chí Minh - Anh hùng giải phóng dân tộc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">×</button>
+        <ul>
+            <li><a href="#trang-chu">Trang chủ</a></li>
+            <li><a href="#gioi-thieu">Giới thiệu</a></li>
+            <li><a href="#hanh-trinh">Hành trình cứu nước</a></li>
+            <li><a href="#khang-chien-phap">Kháng chiến chống Pháp</a></li>
+            <li><a href="#khang-chien-my">Kháng chiến chống Mỹ</a></li>
+            <li><a href="#mucluc">Mục lục</a></li>
+        </ul>
+    </div>
+    <button class="menu-btn" onclick="toggleSidebar()" style="color: red;">☰</button>
+    <div id="trang-chu">
+        <div class="background">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="title animate-on-scroll">Hồ Chí Minh - Anh hùng giải phóng dân tộc</div>
+                <div class="subtitle">Chào mừng bạn đến với website giới thiệu về Chủ tịch Hồ Chí Minh – vị lãnh tụ vĩ đại của dân tộc Việt Nam. Trang web này sẽ đưa bạn khám phá cuộc đời, sự nghiệp và tư tưởng của Người, từ hành trình tìm đường cứu nước đến những cống hiến to lớn cho đất nước. Hãy cùng tìm hiểu để hiểu rõ hơn về con người vĩ đại này!</div>
+                <div class="btn"><a href="#mucluc">Tìm hiểu ngay</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-container" id="mucluc">
+        <h2 class="animate-on-scroll">Mục Lục</h2>
+        <br>
+        <hr>
+        <ul>
+            <li><a href="#trang-chu">Trang chủ</a></li>
+            <li><a href="#gioi-thieu">Giới thiệu đôi nét về Hồ Chí Minh</a></li>
+            <li><a href="#hanh-trinh">Hành trình đi tìm đường cứu nước 1911-1920</a></li>
+            <li><a href="#khang-chien-phap">Lãnh đạo cuộc kháng chiến chống thực dân Pháp (1945 - 1954)</a></li>
+            <li><a href="#khang-chien-my">Kháng chiến chống Mỹ năm 1954-1969</a></li>
+            <li><a href="#mucluc">Mục lục</a></li>
+        </ul>
+    </div>
+    <div class="content-container" id="gioi-thieu">
+        <div class="content-title animate-on-scroll">Giới thiệu đôi nét về Hồ Chí Minh</div>
+        <div class="content-layout">
+            <div class="content-text">
+                <ul>
+                    <li>Hồ Chí Minh sinh ngày 19/5/1890, mất ngày 2/9/1969, tên khai sinh là Nguyễn Sinh Cung. </li>
+                    <li>Hồ Chí Minh sinh ra trong một gia đình nhà Nho nghèo ở làng Sen (hay làng Kim Liên), xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An. Thân phụ là Nguyễn Sinh Sắc, thân mẫu là Hoàng Thị Loan. Ngoài ra Hồ Chí Minh còn có ba người anh chị em khác.</li>
+                    <li>Hồ Chí Minh là nhà cách mạng, người sáng lập Đảng Cộng sản Việt Nam, một trong những người đặt nền móng và lãnh đạo công cuộc đấu tranh giành độc lập, toàn vẹn lãnh thổ cho Việt Nam trong thế kỷ 20, một chiến sĩ cộng sản quốc tế.</li>
+                    <li>Hồ Chí Minh là người đã viết và đọc bản Tuyên ngôn Độc lập khai sinh nước Việt Nam Dân chủ Cộng hòa vào ngày 2/9/1945 tại quảng trường Ba Đình, Hà Nội. Người cũng là Chủ tịch nước Việt Nam Dân chủ Cộng hòa trong thời gian 1945 – 1969 và Chủ tịch Ban Chấp hành Trung ương Đảng Lao động Việt Nam trong thời gian 1951 – 1969.</li>
+                    <li>Trong quá trình cứu quốc, Hồ Chí Minh có tất cả 175 tên gọi với nhiều bí danh và bút danh. “Bác Hồ” là cái tên thân thương mà người dân Việt Nam thể hiện sự kính trọng và yêu mến đối với Người.</li>
+                </ul>
+            </div>
+            <div class="content-image">
+                <img src="bacho.png" alt="Hình ảnh Chủ tịch Hồ Chí Minh">
+            </div>
+        </div>
+    </div>
+    <div class="content-container" id="hanh-trinh" style="margin-bottom: 50px;">
+        <div class="content-title animate-on-scroll" >Hành trình đi tìm đường cứu nước 1911-1920</div>
+        <div class="vertical-line"></div>
+        <div class="small-container">
+            <div class="small-title">1911: Rời Việt Nam</div>
+            <div class="small-text">
+                <li>Ngày 5 tháng 6 năm 1911, Nguyễn Tất Thành (tên của Chủ tịch Hồ Chí Minh lúc đó) rời bến cảng Nhà Rồng (Sài Gòn) trên con tàu Đô đốc Latouche-Tréville, bắt đầu hành trình tìm đường cứu nước.</li>
+                <li>Người lấy tên là Văn Ba, làm phụ bếp trên tàu để có cơ hội đi ra nước ngoài và tìm hiểu thế giới.</li>
+            </div>
+            <br>
+            <div class="small-image">
+                <img src="1911.png" alt="">
+            </div>
+        </div>
+        <div class="small-container" style="left: 52%; top: 25%;">
+            <div class="small-title">1911-1917: Hành trình qua nhiều quốc gia</div>
+            <div class="small-text">
+                <li>Từ năm 1911 đến 1917, Nguyễn Tất Thành đã đi qua nhiều quốc gia và vùng lãnh thổ như Pháp, Mỹ, Anh, và một số nước châu Phi</li>
+                <li>Tại Mỹ (năm 1912), Người đã sống và làm việc ở thành phố New York, tìm hiểu về cuộc sống và chính trị của người dân Mỹ.</li>
+                <li>Tại Anh (năm 1913-1917), Người làm nhiều công việc như cào tuyết, đốt lò, và phụ bếp tại khách sạn. Trong thời gian này, Người tiếp tục học hỏi và nghiên cứu về các phong trào cách mạng trên thế giới.</li>
+            </div>
+            <br>
+            <div class="small-image">
+            </div>
+        </div>
+        <div class="small-container" style="top: 75%;">
+            <div class="small-title">1917-1920: Đến Pháp và tiếp cận với chủ nghĩa Marx-Lenin</div>
+            <div class="small-text">
+                <li>Năm 1917, Nguyễn Tất Thành trở lại Pháp, nơi Người tích cực tham gia các hoạt động chính trị và xã hội.</li>
+                <li>Năm 1919, Người gửi bản Yêu sách của nhân dân An Nam (Revendications du peuple annamite) đến Hội nghị Versailles, đòi quyền tự do, dân chủ và bình đẳng cho nhân dân Việt Nam. Tuy nhiên, bản yêu sách không được chấp nhận.</li>
+            </div>
+            <br>
+            <div class="small-image">
+                <img src="hiepdinh.png" alt="">
+            </div>
+            <div class="small-text">
+                <li>Trong thời gian này, Người tiếp cận với các tư tưởng cách mạng, đặc biệt là chủ nghĩa Marx-Lenin, qua việc đọc các tác phẩm của Lenin và theo dõi Cách mạng Tháng Mười Nga (1917).</li>
+                <li>Năm 1920, Người tham gia Đại hội Đảng Xã hội Pháp tại Tours và bỏ phiếu ủng hộ việc gia nhập Quốc tế Cộng sản (Quốc tế III), trở thành một trong những người sáng lập Đảng Cộng sản Pháp.</li>
+            </div>
+            <div class="small-image">
+                <img src="hiepdinh2.png" alt="">
+            </div>
+        </div>
+        <div class="small-container" style="left: 52%; top: 85%; height: 280px;">
+            <div class="small-title" style="color: red;">Kết quả của hành trình (1911-1920)</div>
+            <div class="small-text">
+                <li>Qua hành trình này, Chủ tịch Hồ Chí Minh đã nhận ra rằng con đường giải phóng dân tộc phải gắn liền với cuộc đấu tranh của giai cấp công nhân và nhân dân lao động trên toàn thế giới.</li>
+                <li>Người đã tìm thấy ánh sáng của chủ nghĩa Marx-Lenin và quyết định đi theo con đường cách mạng vô sản để giải phóng dân tộc Việt Nam khỏi ách thực dân.</li>
+            </div>
+            <br>
+            <div class="small-image">
+            </div>
+        </div>
+    </div>
+    <div class="content-container" id="khangc-chien-phap" style="height: fit-content;">
+        <div class="content-title animate-on-scroll">Lãnh đạo cuộc kháng chiến chống thực dân Pháp (1945 - 1954)</div>
+        <div class="content-layout">
+            <div class="content-text">
+                <h2>1. Giai đoạn 1945 - 1946</h2>
+                <ul>
+                    <li>Sau Cách mạng tháng Tám năm 1945, Việt Nam Dân chủ Cộng hòa phải đối mặt với nạn đói, nạn mù chữ, sự chống phá của các thế lực ngoại xâm và nội phản,...</li>
+                    <li>Trong bối cảnh đó, Đảng và Chính phủ, đứng đầu là Chủ tịch Hồ Chí Minh, đã họp bàn tìm cách đưa cách mạng Việt Nam vượt qua nhiều khó khăn, thử thách.</li>
+                    <li>Trong việc giải quyết mối quan hệ Việt-Pháp (từ đầu tháng 3 đến trước ngày 19/12/1946), Chủ tịch Hồ Chí Minh và Ban Thường vụ Trung ương Đảng thực hiện chủ trương ”hòa để tiến”. Chủ tịch Hồ Chí Minh đã thay mặt Chính phủ Việt Nam Dân chủ Cộng hòa chủ động
+                        ký kết Hiệp định sơ bộ ngày 6/3/1946, ký Tạm ước ngày 14/9/1946... với Chính phủ Pháp.</li>
+                    <li>Những hoạt động này của Chủ tịch Hồ Chí Minh trong giai đoạn này giúp cách mạng Việt Nam tránh phải đối đầu cùng lúc nhiều kẻ thù, đồng thời có thêm thời gian hòa bình để xây dựng chính quyền cách mạng và chuẩn bị lực lượng cho cuộc kháng chiến lâu dài với thực dân Pháp..</li>
+                </ul>
+            </div>
+            <div class="content-image">
+                <img src="bachobattay.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+    <div class="content-container" style="height: fit-content;">
+        <div class="content-layout">
+            <div class="content-image">
+                <img src="loikeogoi.png" alt="">
+            </div>
+            <div class="content-text">
+                <h2>2. Giai đoạn 1946 - 1954</h2>
+                <ul>
+                    <li>Trong giai đoạn 1946 - 1954, Chủ tịch Hồ Chí Minh cùng với Đảng và Chính phủ đã lãnh đạo nhân dân cả nước kết hợp thực hiện hai nhiệm vụ kháng chiến và kiến quốc</li>
+                    <li>Ngày 19-12-1946, Chủ tịch Hồ Chí Minh ra Lời kêu gọi toàn quốc kháng chiến, phát động cuộc kháng chiến toàn quốc chống thực dân Pháp.</li>
+                    <li>Trong những năm 1946 - 1947, Chủ tịch Hồ Chí Minh và Ban Thường vụ Trung ương Đảng đã hoạch định đường lối kháng chiến chống thực dân Pháp: <i>Toàn dân, toàn diện, trường kì, tự lực cánh sinh và tranh thủ sự ủng hộ của quốc tế.</i></li>
+                    <li>Năm 1951, Chủ tịch Hồ Chí Minh chủ trì Đại hội đại biểu lần thứ II của Đảng Cộng sản Đông Dương, điều chỉnh và bổ sung đường lối cách mạng Việt Nam trong tình hình mới.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content-container" style="height: fit-content;">
+        <div class="content-layout">
+            <div class="content-image">
+                <img src="banchienthuat.png" alt="">
+            </div>
+            <div class="content-text">
+                <ul>
+                    <li>Trong những năm kháng chiến, Chủ tịch Hồ Chí Minh đẩy mạnh hoạt động ngoại giao với Pháp, các nước Đông Dương; chủ động thiết lập và mở rộng quan hệ ngoại giao với Liên Xô, Trung Quốc, các nước Đông Âu nhằm tranh thủ sự ủng hộ, giúp đỡ của bên ngoài đối với cuộc kháng chiến.</li>
+                    <li>Chủ tịch Hồ Chí Minh còn tham gia họp bàn và chỉ đạo các chiến dịch quan trọng trong cuộc kháng chiến chống thực dân Pháp, tiêu biểu là các chiến dịch: Việt Bắc thu - đông (1947), Biên giới thu - đông (1950), đặc biệt là cuộc Tiến công chiến lược Đông - Xuân 1953- 1953 và chiến dịch lịch sử Điện Biên Phủ (1954).</li>
+                    <li>Là người lãnh đạo cao nhất của cuộc kháng chiến, những hoạt động của Chủ tịch Hồ Chí Minh đã góp phần quan trọng đưa cuộc kháng chiến chống thực dân Pháp đi đến thắng lợi (1954).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content-container" id="khang-chien-my" style="height: fit-content;">
+        <div class="content-title animate-on-scroll">Kháng chiến chống Mỹ năm 1954-1969</div>
+        <div class="content-layout">
+            <div class="content-text">
+                <ul>
+                    <li>Năm 1960, Đại hội lần thứ III của Đảng, Người được bầu làm Chủ tịch Ban Chấp hành Trung ương Đảng và Người nêu ra hai nhiệm vụ chiến lược: "Xây dựng chủ nghĩa xã hội ở miền Bắc và đấu tranh hòa bình thống nhất nước nhà. Cả hai nhiệm vụ đều nhằm mục tiêu chung là củng cố hòa bình, thực hiện thống nhất nước nhà trên cơ sở độc lập và dân chủ. Người còn nêu rõ miền Bắc là hậu phương lớn, có vai trò quyết định đối với cách mạng cả nước, miền Nam có vai trò quyết định trực tiếp đối với hoàn thành cách mạng dân tộc dân chủ ở miền Nam. Để đưa miền Bắc tiến lên chủ nghĩa xã hội, là hậu phương lớn cho cuộc đấu tranh giải phóng miền Nam, Người nhấn mạnh trong Bài nói tại Hội nghị cán bộ công đoàn: "muốn xây dựng chủ nghĩa xã hội phải có người xã hội chủ nghĩa. Con người mới xã hội chủ nghĩa là những người có đạo đức và tri thức, là những người vừa "hồng" vừa "chuyên" và  có ý thức làm chủ, xây dựng nước nhà. Người lãnh đạo nhân dân miền Bắc vừa sản xuất, vừa chiến đấu, đánh thắng chiến tranh phá hoại của giặc Mỹ, đồng thời ra sức hoàn thành nhiệm vụ chi viện cho cách mạng miền Nam. Người cũng luôn tin tưởng và khẳng định sự tất thắng của cách mạng miền Nam. Sau Hiệp định Giơnevơ, Người nêu rõ: "Để giành lấy thắng lợi, toàn thể nhân dân, quân đội và cán bộ ta từ Bắc đến Nam cần phải đoàn kết chặt chẽ, tư tưởng phải thống nhất, hành động phải nhất trí”. Người còn viết Thư gửi đồng bào cả nước vạch trần những âm mưu trong nước và thế giới về những hành động sai trái của đế quốc Mỹ, Người khẳng định: "Nước Việt Nam ta nhất định phải thống nhất. Đồng bào Nam và Bắc nhất định sẽ sum họp một nhà". Đây là một cuộc đấu tranh lâu dài và gian khổ, đòi hỏi toàn thể đồng bào phải quyết tâm kháng chiến.</li>
+                </ul>
+            </div>
+            <div class="content-image">
+                <img src="daihoi.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="content-container" style="height: fit-content;">
+        <div class="content-layout">
+            <div class="content-image">
+                <img src="docsach.png" alt="" style="margin-bottom: 10px;">
+                <img src="loikeogoi1.png" alt="">
+            </div>
+            <div class="content-text">
+                <ul>
+                    <li>Năm 1965, trước thất bại của chiến lược "chiến tranh đặc biệt", đế quốc Mỹ đã chuyển sang chiến lược "chiến tranh cục bộ". Chúng dùng mọi thủ đoạn, mọi phương tiện hiện đại đẩy mạnh chiến tranh phá hoại bằng hải quân, không quân kể cả máy bay chiến lược B.52. Trước những hành động leo thang xâm lược tàn bạo của đế quốc Mỹ, Người khẳng định: "dù phải chiến đấu 5 năm, 10 năm, 20 năm hoặc lâu hơn nữa, chúng ta cũng kiên quyết chiến đấu đến thắng lợi hoàn toàn" Người đã ra Lời kêu gọi đồng bào và chiến sĩ cả nước, Người nói: "Chiến tranh có thể kéo dài 5 năm, 10 năm, 20 năm hoặc lâu hơn nữa. Hà Nội, Hải Phòng và một số thành phố, xí nghiệp có thể bị tàn phá, song nhân dân Việt Nam quyết không sợ! Không có gì quý hơn độc lập, tự do. Đến ngày thắng lợi, nhân dân ta sẽ xây dựng lại đất nước ta đàng hoàng hơn, to đẹp hơn!". Người khẳng định nhân dân Việt Nam chẳng những không sợ mà còn còn quyết tâm đánh thắng giặc Mỹ xâm lược. Hưởng ứng lời kêu gọi của Hồ Chí Minh, đồng bào và chiến sĩ từ hậu phương đến tuyền tuyến đã phát huy cao độ chủ nghĩa anh hùng cách mạng, với tinh thần dũng cảm đã đoàn kết chiến đấu lần lượt đánh thắng mọi chiến lược của kẻ thù và giành được thắng lợi vẻ vang nhất trong lịch sử chống ngoại xâm của dân tộc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content-container" style="height: fit-content;">
+        <div class="content-layout">
+            <div class="content-text">
+                <ul>
+                    <li>Ngày 02/09/1969, Chủ tịch Hồ Chí Minh đã qua đời, Người để lại cho nhân dân Việt Nam bản Di chúc thiêng liêng. Di chúc là những lời căn dặn cuối cùng đầy tâm huyết, nói lên tình sâu nghĩa nặng của Người với nước, với dân; nói lên niềm tin tất thắng ở sự nghiệp chống Mỹ cứu nước. Đề ra những phương sách lớn để xây dựng lại đất nước sau chiến tranh nhằm thực hiện mục tiêu: "Xây dựng một nước Việt Nam hoà bình, thống nhất, độc lập, dân chủ và giàu mạnh, và góp phần xứng đáng vào sự nghiệp cách mạng thế giới". Di chúc là một văn kiện lịch sử vô giá, kết tinh trong đó cả tinh hoa tư tưởng, đạo đức và tâm hồn cao đẹp của Người đã suốt đời phấn đấu hy sinh vì Tổ quốc và nhân loại.</li>
+                </ul>
+            </div>
+            <div class="content-image">
+                <img src="dichuc.png" alt="">
+                <img src="dichuc2.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="content-container" style="height: fit-content;">
+            <div class="content-text" style="width: 100%;">
+                <div class="content-title animate-on-scroll">Tổng kết</div>
+                <ul>
+                    <li>Chủ tịch Hồ Chí Minh đã mở ra một thời đại mới trong lịch sử dân tộc Việt Nam – Thời đại độc lập dân tộc gắn liền với chủ nghĩa xã hội. Trong suốt chặng đường hoạt động cách mạng, Người đã vạch đường chỉ lối cho cách mạng Việt Nam đi từ thắng lợi này đến thắng lợi khác. Cuộc đời và sự nghiệp cách mạng vĩ đại của Người luôn là tấm gương sáng ngời cho chúng ta học tập và noi theo. Mỗi chúng ta cần cố gắng, nỗ lực hết mình để chăm lo hạnh phúc của nhân dân, ra sức phấn đấu, rèn luyện, noi gương tấm gương đạo đức Hồ Chí Minh để thực sự là những người cán bộ, đảng viên chân chính hết lòng phụng sự tổ quốc, phụng sự nhân dân xứng đáng là người lãnh đạo, người đầy tớ thật trung thành của nhân dân. Đại hội đại biểu toàn quốc lần thứ XII khẳng định: "Tiếp tục đẩy mạnh việc học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh; coi đó là công việc thường xuyên của các tổ chức chính trị - xã hội, địa phương, đơn vị gắn với chống suy thoái về tư tưởng, chính trị, đạo đức, lối sống và những biểu hiện "tự diễn biến", "tự chuyển hóa" trong nội bộ". Việc nghiên cứu, tuyên truyền, học tập tấm gương Hồ Chí Minh góp phần thiết thực vào việc làm cho tư tưởng, đạo đức, phong cách Hồ Chí Minh trở thành một bộ phận cấu thành nền tảng tinh thần vững chắc của xã hội Việt Nam hiện đại.</li>
+                </ul>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <img src="1.png" alt="" style="width: 50%;">
+                <img src="2.png" alt="" style="width: 50%;">
+            </div> 
+        </div>
+    </div>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("sidebar");
+            sidebar.classList.toggle("active");
+        }
+        function prepareTextAnimation() {
+    // Select all elements with the 'animate-on-scroll' class
+    document.querySelectorAll('.animate-on-scroll').forEach(element => {
+      const text = element.textContent;
+      element.textContent = '';
+      
+      // Split text into individual letter spans
+      for (let i = 0; i < text.length; i++) {
+        const span = document.createElement('span');
+        
+        if (text[i] === ' ') {
+          span.classList.add('letter-space');
+        } else {
+          span.classList.add('fade-letter');
+          span.textContent = text[i];
+        }
+        
+        element.appendChild(span);
+      }
+    });
+  }
+  
+  // Function to check if element is in viewport
+  function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+      rect.top < (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.bottom > 0
+    );
+  }
+  
+  // Track which elements have been animated
+  const animatedElements = new Set();
+  
+  // Handle scroll animation
+  function handleScrollAnimation() {
+    document.querySelectorAll('.animate-on-scroll').forEach(element => {
+      // Only animate if not already animated and in viewport
+      if (!animatedElements.has(element) && isElementInViewport(element)) {
+        animatedElements.add(element);
+        
+        const letters = element.querySelectorAll('.fade-letter');
+        letters.forEach((letter, index) => {
+          setTimeout(() => {
+            letter.classList.add('visible');
+          }, index * 50);
+        });
+      }
+    });
+  }
+  
+  // Initialize on DOM load
+  document.addEventListener('DOMContentLoaded', function() {
+    prepareTextAnimation();
+    handleScrollAnimation(); // Check initial state
+    
+    // Add scroll listener
+    window.addEventListener('scroll', handleScrollAnimation);
+  });
+    </script>
+</body>
+</html>
